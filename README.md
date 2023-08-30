@@ -1,3 +1,19 @@
+This project is a simple and easy way to run JMeter tests from the command line interface (CLI). JMeter is a powerful tool for performance testing, but it can be cumbersome to use the graphical user interface (GUI) for large or complex tests. With this project, you can run JMeter tests with just a few commands and get the results in various formats.
+
+### Features
+- Run JMeter tests from the CLI with minimal configuration
+- Specify test parameters such as thread count, ramp-up time, loop count, etc.
+- Generate test reports in HTML, CSV, XML, or JSON formats
+- View test results in graphs and charts using the JMeter Dashboard
+- Customize test scenarios using JMeter properties and variables
+
+### Prerequisites
+- Java 8 or higher
+- JMeter 5.4.3 or higher
+- A JMeter test plan (.jmx file)
+
+
+
 ### Things to do before running the script:
 - Verify the JMeter test plan has the correct user defined variables, csv input data file.
 - Check runJMeter.bat has the right directory location of the JMeter application as well the the JMeter script, input data, etc.
